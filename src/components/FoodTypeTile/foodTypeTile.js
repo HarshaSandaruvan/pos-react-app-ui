@@ -17,7 +17,7 @@ const FoodTypeTile =(props)=>{
         <div className={style.outer} 
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
-            style={{backgroundColor:!mouseState ? "#B4fff6" : "#a29bfe" }}
+            style={{backgroundColor:!mouseState ? props.defColour : props.onColour }}
             >
             <img className={style.image} src={props.img} alt=""></img>
             <div className={style.txtHolder}>
