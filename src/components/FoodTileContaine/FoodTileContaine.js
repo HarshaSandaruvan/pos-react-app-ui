@@ -20,8 +20,7 @@ import DrinksImg from '../../assets/drinks.png';
                     <FoodTypeTile heading="Soup" Item="8 Items" img={SoupImg} defColour="#74b9ff" onColour="#0984e3"/>
                     <FoodTypeTile heading="Desert" Item="2 Items" img={DesertImg} defColour="#ff7675" onColour="#d63031"/>
                     <FoodTypeTile heading="Drinks" Item="10 Items" img={DrinksImg} defColour="#a29bfe" onColour="#6c5ce7"/>
-                    <FoodTypeTile heading="Drinks" Item="10 Items" img={DrinksImg} defColour="#a29bfe" onColour="#6c5ce7"/>
-        		</div>
+          		</div>
     		);
 	}
 	export default FoodTileContaine;
