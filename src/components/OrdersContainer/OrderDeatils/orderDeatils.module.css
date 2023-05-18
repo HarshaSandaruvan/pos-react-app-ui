@@ -1,0 +1,29 @@
+.outer{
+    margin-top: 1rem;
+}
+
+.inner{
+    text-align: left;
+}
+.span{
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.lable{
+    width:3.6rem;
+    display: inline-flex;
+    justify-content: center;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 0.5rem;
+    border-radius: 3px;
+    padding: 2px 4px 2px 4px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    margin-left: 9%;
+    color: #FFFFFF;
+}
