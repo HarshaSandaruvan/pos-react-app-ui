@@ -1,7 +1,7 @@
 
 import './App.css';
 import FoodTileContaine from './components/FoodTileContaine/FoodTileContaine';
-import MainLogo from './components/NavBar/MainLogo/mainLogo';
+import ItemTitleContainer from './components/ItemTileContainer/itemTitleContainer';
 import UpperNavBar from './components/NavBar/UpperNavBar/upperNavBar';
 import OdersContainer from './components/OrdersContainer/ordersContainer';
 
@@ -11,8 +11,13 @@ function App() {
     <div className="App">
      <UpperNavBar/>
      <OdersContainer/>
-     <FoodTileContaine/>
-      
+     <div className="container">
+          <FoodTileContaine/>
+          <ItemTitleContainer/>
+     </div>
+        
+           
+        
     </div>
   );
 }

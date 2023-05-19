@@ -7,6 +7,8 @@ import DinnerImg from '../../assets/dinner.png';
 import SoupImg from '../../assets/soups.png';
 import DesertImg from '../../assets/desert.png';
 import DrinksImg from '../../assets/drinks.png';
+import IceCreamIMg from '../../assets/iceCream.png';
+import SaladImg from '../../assets/salad.png';
 
 
 	
@@ -20,7 +22,9 @@ import DrinksImg from '../../assets/drinks.png';
                     <FoodTypeTile heading="Soup" Item="8 Items" img={SoupImg} defColour="#74b9ff" onColour="#0984e3"/>
                     <FoodTypeTile heading="Desert" Item="2 Items" img={DesertImg} defColour="#ff7675" onColour="#d63031"/>
                     <FoodTypeTile heading="Drinks" Item="10 Items" img={DrinksImg} defColour="#a29bfe" onColour="#6c5ce7"/>
-          		</div>
+					<FoodTypeTile heading="Ice Cream" Item="8 Items" img={IceCreamIMg} defColour="#ff9ff3" onColour="#f368e0"/>
+					<FoodTypeTile heading="Salad" Item="5 Items" img={SaladImg} defColour="#dfe6e9" onColour="#b2bec3"/>
+				</div>
     		);
 	}
 	export default FoodTileContaine;
