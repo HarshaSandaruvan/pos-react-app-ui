@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/pos-react-ui/static/css/main.95ec9e74.css",
-    "main.js": "/pos-react-ui/static/js/main.0de97319.js",
+    "main.css": "/pos-react-ui/static/css/main.f0f38e28.css",
+    "main.js": "/pos-react-ui/static/js/main.e53598d1.js",
     "static/js/787.9a3dd16e.chunk.js": "/pos-react-ui/static/js/787.9a3dd16e.chunk.js",
     "static/media/main_logo.png": "/pos-react-ui/static/media/main_logo.ddb4dd68bc042903e5fa.png",
     "index.html": "/pos-react-ui/index.html",
-    "main.95ec9e74.css.map": "/pos-react-ui/static/css/main.95ec9e74.css.map",
-    "main.0de97319.js.map": "/pos-react-ui/static/js/main.0de97319.js.map",
+    "main.f0f38e28.css.map": "/pos-react-ui/static/css/main.f0f38e28.css.map",
+    "main.e53598d1.js.map": "/pos-react-ui/static/js/main.e53598d1.js.map",
     "787.9a3dd16e.chunk.js.map": "/pos-react-ui/static/js/787.9a3dd16e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.95ec9e74.css",
-    "static/js/main.0de97319.js"
+    "static/css/main.f0f38e28.css",
+    "static/js/main.e53598d1.js"
   ]
 }
