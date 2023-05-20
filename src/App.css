@@ -83,3 +83,13 @@
   bottom: 1rem;
   z-index: 1;
 }
+
+.menuContainer{
+  width: 12.5rem;
+  height: 10rem;
+  position: absolute;
+  left: 1rem;
+  top: 8rem;
+  display: flex;
+  justify-content: center;
+}

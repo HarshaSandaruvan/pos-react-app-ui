@@ -16,7 +16,7 @@ const ItemTile =(props)=>{
        	<div className={style.outer}
            onMouseEnter={mouseEnterHandler}
            onMouseLeave={mouseLeaveHandler}
-           style={{backgroundColor:!mouseState ? " #6a6b6bb5" : "#00b894"  }}
+           style={{backgroundColor:!mouseState ? " #6a6b6bb5" : "#00b894" }}
         >
            <span className={style.procesingTime}>{props.time} Minute</span> 
            <span className={style.title}>{props.title}</span>

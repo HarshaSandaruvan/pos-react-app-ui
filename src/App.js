@@ -3,6 +3,7 @@ import './App.css';
 import Cart from './components/CartContainer/cart';
 import FoodTileContaine from './components/FoodTileContaine/FoodTileContaine';
 import ItemTitleContainer from './components/ItemTileContainer/itemTitleContainer';
+import MenuCom from './components/MenuContainer/menu';
 import UpperNavBar from './components/NavBar/UpperNavBar/upperNavBar';
 import OdersContainer from './components/OrdersContainer/ordersContainer';
 import PaymentsCom from './components/PaymentsDetails/PaymentsCom';
@@ -23,7 +24,9 @@ function App() {
       <div className="paymentcontainer">
             <PaymentsCom/>
       </div>
-      
+      <div className="menuContainer">
+        <MenuCom/>
+      </div>
         
     </div>
   );
