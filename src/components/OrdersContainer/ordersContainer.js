@@ -15,7 +15,12 @@ const OdersContainer =()=>{
             <Order orderType="DONE" labalColor="#16a085" orderNo="1027"/>
             <Order orderType="IN-PROGRESS" labalColor="#0984e3" orderNo="1028"/>
             <Order orderType="IN-PROGRESS" labalColor="#0984e3" orderNo="1029"/>
-
+            <Order orderType="DONE" labalColor="#16a085" orderNo="1030"/>
+            <Order orderType="DONE" labalColor="#16a085" orderNo="1031"/>
+            <Order orderType="DONE" labalColor="#16a085" orderNo="1032"/>
+            <Order orderType="DONE" labalColor="#16a085" orderNo="1033"/>
+            <Order orderType="DONE" labalColor="#16a085" orderNo="1034"/>
+            <Order orderType="DONE" labalColor="#16a085" orderNo="1035"/>
             
        	</div>
     );

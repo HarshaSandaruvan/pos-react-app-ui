@@ -1,13 +1,22 @@
 .outer{
     width: 13.5vw;
-    height: auto;
+    height: 15rem;
+    
     background-color: #464646;
     position: absolute;
-    top: 12rem;
+   bottom: 1rem;
     left: 1%;
     padding: 1rem;
+    overflow-y: scroll;
+    
+  -webkit-mask: var(--mask); 
+  mask: var(--mask);
 
 }
+
+.outer::-webkit-scrollbar {
+    display: none;
+  }
 .title{
     font-family: Poppins;
     font-weight: 900;

@@ -1,0 +1,45 @@
+.outer{
+    width: 90%;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    border-bottom: 1px solid white;
+    border-radius: 3px;
+    margin: auto;
+    margin-top: 20px;
+    left: 0;
+    right: 0;
+    
+}
+
+.titleDiv{
+    width: 60%;
+    height: 100%;
+    padding: 2px 3px 2px 10px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.priceDiv{
+    width: 30%;
+    height: 100%;
+    padding: 2px 3px 2px 3px;
+    display: flex;
+    align-items: center;
+    
+}
+.txt{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: white;
+    
+}
+.txtPrice{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: white;
+}
